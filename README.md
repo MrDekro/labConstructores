@@ -7,3 +7,5 @@
 * Respuesta : Todo queda mas agrupado al calcular adentro del objeto, esto aumenta la cohesion, evita duplicar la logica en otro codigo por ejemplo y facilita el mantenimiento
 ## Pregunta analitica 4: ¿Qué ocurriría si el libro ya estaba prestado y alguien intenta prestarlo nuevamente sin controles de estado internos?
 * Respuesta : Aparaceria como true ya que no se tiene en cuenta el valor logico del libro prestado, entonces es muy complicado saber si la persona que esta intentando tomar el libro prestado sabe si ya lo esta, no hay una forma de saberlo.
+## Pregunta analitica 5: ¿Qué ventajas tiene permitir que la información sea ingresada por el usuario en lugar de escribir los datos directamente en el código?
+* Respuesta : Que le brindamos al usuario una interfaz grafica para que pueda intervenir en el codigo sin necesidad de que sepa de codigo. La informacion esta hardcodeada, para un usuario comun no es facil entender de codigo y puede llegar a romper el programa.
